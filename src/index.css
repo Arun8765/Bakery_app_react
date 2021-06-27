@@ -1,13 +1,92 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+    background-size: cover;
+    background-position: center;
+    background-image: url('background2.jpg');
+    margin-bottom: 30%;
 }
+
+li,a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color : #3F250B;
+    text-decoration: none;
+}
+
+p.logo{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color : #3F250B;
+    text-decoration: none;
+}
+.eachProduct{
+  margin:5px;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  text-align: center;
+  font-style: italic;
+  color: black;
+  background-color: #f1e3c5fa;
+  padding: 0px;
+}
+#productName{
+  margin-bottom: 5px;
+  font-size:x-large;
+}
+.eachProduct img{
+  height: 200px;
+  width: auto;
+  border-radius: 5px;
+}
+.eachProduct form{
+  margin: 5px
+}
+.qty{
+  width: 70px;
+  margin-bottom: 5px;
+}
+.eachProduct button{
+  width: 100%;
+  background-color: #f0c14b;
+}
+.allProducts li{
+  display: inline-block;
+}
+header {
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 10%;
+    /* background-color: rgba(245, 222, 179,0.85); */
+}
+
+.list {
+    list-style: None;
+}
+
+.list li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.list li a , .logo {
+    transition: all 0.3s ease 0s;
+}
+.list li a img{
+  height: 50px;
+  width: 50px;
+}
+.list li a:hover{
+   color: rgb(167, 102, 17);
+}
+
