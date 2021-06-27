@@ -1,4 +1,4 @@
-# Made the home page display the items it is dynamic only a few code tweeks required to make it read from db
+# Made the home page display the items, it is dynamic only a few code tweeks required to make it read from db
 
 
 ### `npm start`
